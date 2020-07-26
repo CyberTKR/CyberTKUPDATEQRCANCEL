@@ -7,11 +7,12 @@
 <br><b>✦   OTOMATİK OLARAK ÇALIŞTIRMAK İÇİN AŞAĞIDAKİ ADIMI İZLEYİNİZ </b></br>
 
 <br><b>✦   Bot İs Running </b></br>
-<br><b>✦   git clone https://gitlab.com/cybertkkicker/cybertkautoinstall</b></br>
+<br><b>✦   git clone https://gitlab.com/cybertkkicker/CyberTKUPDATEQRCANCEL</b></br>
 <br><b>✦   ls</b></br>
-<br><b>✦   cd cybertkautoinstall</b></br>
-<br><b>✦   chmod +x cybertkautoprogram</b></br>
-<br><b>✦   ./cybertkautoprogram</b></br>
+<br><b>✦   cd CyberTKUPDATEQRCANCEL</b></br>
+<br><b>✦   chmod +x py3calıstırma</b></br>
+<br><b>✦   ./py3calıstırma</b></br>
+<br><b>✦   python3 cancelbot.py</b></br>
 <br><b>✦<a href="https://youtube.com/CyberTK"><img src="https://images.cooltext.com/5410138.png" width="514" height="59" alt="▼  Password İn Youtube Video Click ▼" /></a></b></br>
 <br><b>✦<a href="https://youtube.com/CyberTK"><img src="https://images.cooltext.com/5410142.png" width="435" height="45" alt="▼  Nama pengguna dan kata sandi di dalam video ▼" /></a></b></br>
 <br><b>✦<a href="https://youtube.com/CyberTK"><img src="https://images.cooltext.com/5410143.png" width="364" height="50" alt="▼  Şifre ve Kullanıcı adı Video'nun İçinde ▼" /></a></b></br>
