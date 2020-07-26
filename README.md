@@ -13,10 +13,7 @@
 <br><b>✦   chmod +x py3-calıstırma</b></br>
 <br><b>✦   ./py3-calıstırma</b></br>
 <br><b>✦   python3 cancelbot.py</b></br>
-<br><b>✦<a href="https://youtube.com/CyberTK"><img src="https://images.cooltext.com/5410138.png" width="514" height="59" alt="▼  Password İn Youtube Video Click ▼" /></a></b></br>
-<br><b>✦<a href="https://youtube.com/CyberTK"><img src="https://images.cooltext.com/5410142.png" width="435" height="45" alt="▼  Nama pengguna dan kata sandi di dalam video ▼" /></a></b></br>
-<br><b>✦<a href="https://youtube.com/CyberTK"><img src="https://images.cooltext.com/5410143.png" width="364" height="50" alt="▼  Şifre ve Kullanıcı adı Video'nun İçinde ▼" /></a></b></br>
-<br><b><a href="https://youtube.com/CyberTK"><img src="https://images.cooltext.com/5410152.gif" width="651" height="54" alt="✦ ► CyberTK New KİCKER VİDEO ◄ ✦" /></a></b></br>
+<br><b><a href="https://youtube.com/CyberTK"><img src="https://images.cooltext.com/5446515.gif" width="714" height="46" alt="✦ ► CyberTK QR UPDATECANCELLER◄ ✦" />/></a></b></br>
 <h2><b> Official Account's </b></h2>
 <br><b>✦  Line Contact ✔⇩ </b></br>
 <br><b>✦  cybertk0  </b></br>
