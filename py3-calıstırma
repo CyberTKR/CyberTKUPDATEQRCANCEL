@@ -1,0 +1,48 @@
+sudo apt-get install nodejs -y
+
+sudo pip3 install requests
+
+sudo pip3 install hyper
+
+sudo pip3 install httpx
+
+sudo pip3 install httplib2
+
+sudo pip3 install rsa
+
+sudo pip3 install pycryptodome
+
+sudo pip3 install yowsup
+
+sudo pip3 install bs4
+
+sudo pip3 install gtts
+
+sudo pip3 install pyqrcode
+
+sudo pip3 install pafy
+
+sudo pip3 install youtube_dl
+
+sudo pip3 install humanize
+
+sudo pip3 install ffmpy
+
+sudo pip3 install googletrans
+
+sudo pip3 install zalgo_text
+
+sudo pip3 install humanfriendly
+
+sudo pip3 install html5lib
+
+sudo pip3 install wikipedia
+
+sudo pip3 install goslate
+
+sudo pip3 install naked
+
+
+
+
+
