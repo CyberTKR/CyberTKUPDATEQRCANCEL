@@ -10,8 +10,8 @@
 <br><b>✦   git clone https://gitlab.com/cybertkkicker/CyberTKUPDATEQRCANCEL</b></br>
 <br><b>✦   ls</b></br>
 <br><b>✦   cd CyberTKUPDATEQRCANCEL</b></br>
-<br><b>✦   chmod +x py3calıstırma</b></br>
-<br><b>✦   ./py3calıstırma</b></br>
+<br><b>✦   chmod +x py3-calıstırma</b></br>
+<br><b>✦   ./py3-calıstırma</b></br>
 <br><b>✦   python3 cancelbot.py</b></br>
 <br><b>✦<a href="https://youtube.com/CyberTK"><img src="https://images.cooltext.com/5410138.png" width="514" height="59" alt="▼  Password İn Youtube Video Click ▼" /></a></b></br>
 <br><b>✦<a href="https://youtube.com/CyberTK"><img src="https://images.cooltext.com/5410142.png" width="435" height="45" alt="▼  Nama pengguna dan kata sandi di dalam video ▼" /></a></b></br>
