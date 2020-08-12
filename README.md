@@ -13,7 +13,7 @@
 <br><b>✦   chmod +x py3-calıstırma</b></br>
 <br><b>✦   ./py3-calıstırma</b></br>
 <br><b>✦   python3 cancelbot.py</b></br>
-<br><b><a href="https://youtube.com/CyberTK"><img src="https://images.cooltext.com/5446515.gif" width="714" height="46" alt="✦ ► CyberTK QR UPDATECANCELLER◄ ✦" /></a></b></br>
+<br><b><a href="https://www.youtube.com/watch?v=afeFQw_U3Wc&feature=youtu.be"><img src="https://images.cooltext.com/5446515.gif" width="714" height="46" alt="✦ ► CyberTK QR UPDATECANCELLER◄ ✦" /></a></b></br>
 <h2><b> Official Account's </b></h2>
 <br><b>✦  Line Contact ✔⇩ </b></br>
 <br><b>✦  cybertk0  </b></br>
