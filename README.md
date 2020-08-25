@@ -7,7 +7,7 @@
 <br><b>✦   OTOMATİK OLARAK ÇALIŞTIRMAK İÇİN AŞAĞIDAKİ ADIMI İZLEYİNİZ </b></br>
 
 <br><b>✦   Bot İs Running </b></br>
-<br><b>✦   git clone https://gitlab.com/CyberTKRCyberTKUPDATEQRCANCEL</b></br>
+<br><b>✦   git clone https://gitlab.com/CyberTKR/CyberTKUPDATEQRCANCEL</b></br>
 <br><b>✦   ls</b></br>
 <br><b>✦   cd CyberTKUPDATEQRCANCEL</b></br>
 <br><b>✦   chmod +x py3-calıstırma</b></br>
