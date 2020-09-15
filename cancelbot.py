@@ -203,7 +203,7 @@ def TOBLECNACPURGKTrebyC(laylaylalalay):
                 mids = [i.mid for i in g.invitee]
                 for mid in mids:
                     try:
-                        cybertk.TKRcıkCANCELİNVİTEGRoups(TOBKTrebyC.to,[mid])
+                        cybertk.puorGetIvnIlecnaCrKT(TOBKTrebyC.to,[mid])
                         time.sleep(0.5)
                     except Exception as e:
                         pass
