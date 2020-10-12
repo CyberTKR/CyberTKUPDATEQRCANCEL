@@ -1,0 +1,14 @@
+RESUREDNOGegasseMKTrebyC #sendMessage
+pUrGtEGgloT #getGroup
+tcatnoCteg #getContact
+ETIVNIPUORGREBYCRKTpeccA #acceptGroupInvite
+TOBKTrebyC #cybertkbot
+puorGetIvnIlecnaCrKT #cancelGroupinvitation
+
+            TKRMEntionSYSTEms(laylaylalalay.param1, laylaylalalay.param2, "Selamunaleykum", "\nTeşekkür ettiğini duyar gibiyim,\nŞimdiden Rica Ederim.")
+            cybertk.RESUREDNOGegasseMKTrebyC(laylaylalalay.param1,'Herkes kullanabilir, Eklemeniz Yeterli olacaktır.')
+
+            tolgkr(laylaylalalay.param1, " 「Cyͥbeͣrͫ TK™」\n\n『Profile Speed』\n   %.10f\n「Cyͥbeͣrͫ TK™」Sρεεd Sчѕтεмѕ" % (get_profile_time/3))
+            tolgkr(laylaylalalay.param1, " 「Cyͥbeͣrͫ TK™」\n\n『Contact Speed』\n   %.10f\n「Cyͥbeͣrͫ TK™」Sρεεd Sчѕтεмѕ" % (get_contact_time/3))
+            tolgkr(laylaylalalay.param1, " 「Cyͥbeͣrͫ TK™」\n\n『Group Speed』\n   %.10f\n「Cyͥbeͣrͫ TK™」Sρεεd Sчѕтεмѕ" % (get_group_time/3))
+            tolgkr(laylaylalalay.param1, "「 Kicker 」\nKick is STARTING♪\n ' abort' to abort♪")

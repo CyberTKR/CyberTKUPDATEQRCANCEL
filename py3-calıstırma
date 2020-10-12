@@ -1,3 +1,5 @@
+sudo apt install python3-pip
+
 sudo apt-get install nodejs -y
 
 sudo pip3 install requests
@@ -41,6 +43,10 @@ sudo pip3 install wikipedia
 sudo pip3 install goslate
 
 sudo pip3 install naked
+
+sudo pip3 install yowsup
+
+sudo pip3 install pytz
 
 
 
