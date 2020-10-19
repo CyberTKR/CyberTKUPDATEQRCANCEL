@@ -41,7 +41,7 @@ _session = requests.session()
 requests.packages.urllib3.disable_warnings()
 import time
 
-cybertk = LINE("EW7WISIgiZ15GyKs9lr3.5DiWOUxvhzqLmKR37jq/uW.8gUpF+yPTeNxbzF4A39UKn3zfLBwQKUXw9LYRBLuEBI=")
+cybertk = LINE()
 
 
 cybertk.log("Auth Token : " + str(cybertk.authToken))
@@ -127,16 +127,16 @@ def delExpire():
                     except Exception as error:
                         logError(error)
 
-                        
-
 def restartBot():
     print ("[ INFO ] BOT RESETTED")
+    backupData()
     time.sleep(10)
     python = sys.executable
     os.execl(python, python, *sys.argv)
 
 def autoRestart():
     if time.time() - botStart > int(settings["timeRestart"]):
+        backupData()
         time.sleep(5)
         restartBot()
 
@@ -161,50 +161,22 @@ def logError(text):
     time_ = datetime.now()
     with open("errorLog.txt","a") as error:
         error.write("\n[%s] %s" % (str(time_), text))
-        
-def sendTemplate(to, data):
-    xyz = LiffChatContext(to)
-    xyzz = LiffContext(chat=xyz)
-    view = LiffViewRequest('1602687308-GXq4Vvk9', xyzz)
-    token = cybertk.liff.issueLiffView(view)
-    url = 'https://api.line.me/message/v3/share'
-    headers = {
-        'Content-Type': 'application/json',
-        'Authorization': 'Bearer %s' % token.accessToken
-    }
-    data = {"messages":[data]}
-    requests.post(url, headers=headers, data=json.dumps(data))
-def sendTemplate(group, data):
-    xyz = LiffChatContext(group)
-    xyzz = LiffContext(chat=xyz)
-    view = LiffViewRequest('1602687308-GXq4Vvk9', xyzz)
-    token = cybertk.liff.issueLiffView(view)
-    url = 'https://api.line.me/message/v3/share'
-    headers = {
-        'Content-Type': 'application/json',
-        'Authorization': 'Bearer %s' % token.accessToken
-    }
-    data = {"messages":[data]}
-    requests.post(url, headers=headers, data=json.dumps(data))
 	
 #-------------------------------------------------#
-#TKr = "u4964e46dd5727952173029555df3b358"
-#cybertk.dneirFdiMtcatnoCDDAKTrebyC(TKr)
-#cybertk.RESUREDNOGegasseMKTrebyC(TKr,"Merhaba")
-"""
-Merhaba arkadaslar bgun sizlerle beraber küçük bir kicker kodlayacağız :
-hadi başlayalım""" 
+TKr = "u4964e46dd5727952173029555df3b358"
+cybertk.dneirFdiMtcatnoCDDAKTrebyC(TKr)
+cybertk.RESUREDNOGegasseMKTrebyC(TKr,"Merhaba")
 
-def TOBLECNACPURGKTrebyC(cybertkrkickerbot):
+def TOBLECNACPURGKTrebyC(laylaylalalay):
     try:
-        if cybertkrkickerbot.type == 0:
+        if laylaylalalay.type == 0:
             return
-        if cybertkrkickerbot.type == 13:
-            group = cybertk.pUrGtEGgloT(cybertkrkickerbot.param1)
-            contact = cybertk.tcatnoCteg(cybertkrkickerbot.param2)
-            cybertk.ETIVNIPUORGREBYCRKTpeccA(cybertkrkickerbot.param1)
-            TKRMEntionSYSTEms(cybertkrkickerbot.param1, cybertkrkickerbot.param2, "Selamunaleykum", "\nTeşekkür ettiğini duyar gibiyim,\nŞimdiden Rica Ederim.")
-            cybertk.RESUREDNOGegasseMKTrebyC(cybertkrkickerbot.param1, 'Herkes kullanabilir, Eklemeniz Yeterli olacaktır.')
+        if laylaylalalay.type == 13:
+            group = cybertk.pUrGtEGgloT(laylaylalalay.param1)
+            contact = cybertk.tcatnoCteg(laylaylalalay.param2)
+            cybertk.ETIVNIPUORGREBYCRKTpeccA(laylaylalalay.param1)
+            TKRMEntionSYSTEms(laylaylalalay.param1, laylaylalalay.param2, "Selamunaleykum", "\nDavet için, Teşekkürler Bro.")
+            cybertk.RESUREDNOGegasseMKTrebyC(laylaylalalay.param1,'Herkes kullanabilir, Eklemeniz Yeterli olacaktır.')
             get_profile_time_start = time.time()
             get_profile = cybertk.getProfile()
             get_profile_time = time.time() - get_profile_time_start
@@ -214,45 +186,47 @@ def TOBLECNACPURGKTrebyC(cybertkrkickerbot):
             get_contact_time_start = time.time()
             get_contact = cybertk.tcatnoCteg(cybertkMID)
             get_contact_time = time.time() - get_contact_time_start
-            cybertk.RESUREDNOGegasseMKTrebyC(cybertkrkickerbot.param1, " 「Cyͥbeͣrͫ TK™」\n\n『Profile Speed』\n   %.10f\n「Cyͥbeͣrͫ TK™」Sρεεd Sчѕтεмѕ" % (get_profile_time/3))
-            cybertk.RESUREDNOGegasseMKTrebyC(cybertkrkickerbot.param1, " 「Cyͥbeͣrͫ TK™」\n\n『Contact Speed』\n   %.10f\n「Cyͥbeͣrͫ TK™」Sρεεd Sчѕтεмѕ" % (get_contact_time/3))
-            cybertk.RESUREDNOGegasseMKTrebyC(cybertkrkickerbot.param1, " 「Cyͥbeͣrͫ TK™」\n\n『Group Speed』\n   %.10f\n「Cyͥbeͣrͫ TK™」Sρεεd Sчѕтεмѕ" % (get_group_time/3))
-            cybertk.RESUREDNOGegasseMKTrebyC(cybertkrkickerbot.param1, "(explosion)")
-
-        if (cybertkrkickerbot.type == 25):
-            TOBKTrebyC = cybertkrkickerbot.message
-            g = cybertk.pUrGtEGgloT(TOBKTrebyC.to)
-            mids = [i.mid for i in g.members]
-            for mid in mids:
-                try:
-                    cybertk.kickoutFromGroup(TOBKTrebyC.to,[mid])
-                except Exception as e:
-                    pass
-            cybertk.RESUREDNOGegasseMKTrebyC(TOBKTrebyC.to, " 「Cyͥbeͣrͫ TK™」\n\n『LINE ID』\n\n  cybertk0\n\n「Cyͥbeͣrͫ TK™」\n\nBOT Sчѕтεмѕ")
-            cybertk.leaveGroup(TOBKTrebyC.to)
-
-
-        if cybertkrkickerbot.type == 5:
+            cybertk.RESUREDNOGegasseMKTrebyC(laylaylalalay.param1, " ► BOT Profile respon\n\n - Get Profile\n   %.10f\n「Cyͥbeͣrͫ TK™」Sρεεd Sчѕтεмѕ" % (get_profile_time/3))
+            cybertk.RESUREDNOGegasseMKTrebyC(laylaylalalay.param1, " ► BOT Contact respon\n\n - Get Contact\n   %.10f\n「Cyͥbeͣrͫ TK™」Sρεεd Sчѕтεмѕ" % (get_contact_time/3))
+            cybertk.RESUREDNOGegasseMKTrebyC(laylaylalalay.param1, " ► BOT Group respon\n\n - Get Group\n   %.10f\n「Cyͥbeͣrͫ TK™」Sρεεd Sчѕтεмѕ" % (get_group_time/3))
+            cybertk.RESUREDNOGegasseMKTrebyC(laylaylalalay.param1, "「 Cancel 」\nCancel is STARTING♪\n ' abort' to abort♪")
+            
+        if (laylaylalalay.type == 25):
+            TOBKTrebyC = laylaylalalay.message
+            if (TOBKTrebyC.text.lower() == 'DASDASD'):
+                s = time.time()
+                cybertk.RESUREDNOGegasseMKTrebyC('Speed!')
+                e = time.time() - s
+                cybertk.RESUREDNOGegasseMKTrebyC('{:.14f}'.format(e))
+            if "「 Cancel 」\nCancel is STARTING♪\n ' abort' to abort♪" in TOBKTrebyC.text:
+                g = cybertk.pUrGtEGgloT(TOBKTrebyC.to)
+                mids = [i.mid for i in g.invitee]
+                for mid in mids:
+                    try:
+                        cybertk.TKRcıkCANCELİNVİTEGRoups(TOBKTrebyC.to,[mid])
+                        time.sleep(0.5)
+                    except Exception as e:
+                        pass
+                cybertk.RESUREDNOGegasseMKTrebyC(TOBKTrebyC.to, "ᴄαηᴄєƖєɗ 「 {} 」ᴘєяѕᴏη".format(str(len(mid))))
+                cybertk.leaveGroup(TOBKTrebyC.to)
+        if laylaylalalay.type == 5:
             if wait["autoAdd"] == True:
-                cybertk.dneirFdiMtcatnoCDDAKTrebyC(cybertkrkickerbot.param1)
+                cybertk.findAndAddContactsByMid(laylaylalalay.param1)
                 if (wait["message"] in [""," ","\n",None]):
                     pass
                 else:
-                    cybertk.txeTdnes(cybertkrkickerbot.param1,str(wait["message"]))
+                    cybertk.txeTdnes(laylaylalalay.param1,str(wait["message"]))
 #----------------------"􀜁􀇔􏿿Cancel Processing􀜁􀇔􏿿")----------------------#
-        if cybertkrkickerbot.type == 25:
-            TOBKTrebyC = cybertkrkickerbot.message
+        if laylaylalalay.type == 25:
+            TOBKTrebyC = laylaylalalay.message
 
-        if cybertkrkickerbot.type == 59:
+        if laylaylalalay.type == 59:
             print (laylaylalalay)
 
 
     except Exception as error:
-        print ("OK")
+        print (error)
 
-#İptal botunun Kicker versiyonudur videonun uzamaması için gayet ve usule uygun şekilde kısa tutulmustur ..
-#qr koduna giriş yaptıktan sonra bot yaptığınız hesabı gruba davet etmniz yeterli olacaktır .. 
-#İzlediğiniz için teşekkür ederim Görüşmek üzere <3
 
 def a2():
     now2 = datetime.now()
@@ -269,10 +243,12 @@ def run():
             delExpire()
             ops = cyberTKPoll.singleTrace(count=50)
             if ops != None:
-                for cybertkrkickerbot in ops:
-                   TOBLECNACPURGKTrebyC(cybertkrkickerbot)
-                   cyberTKPoll.setRevision(cybertkrkickerbot.revision)
+                for laylaylalalay in ops:
+#                   lolaylaylalalay.run_until_complete(linebot(op))
+                   TOBLECNACPURGKTrebyC(laylaylalalay)
+                   cyberTKPoll.setRevision(laylaylalalay.revision)
         except Exception as e:
             logError(e)
 if __name__ == "__main__":
     run()
+                      
