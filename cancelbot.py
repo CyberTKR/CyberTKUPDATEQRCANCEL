@@ -163,7 +163,7 @@ def logError(text):
         error.write("\n[%s] %s" % (str(time_), text))
 	
 #-------------------------------------------------#
-TKr = "u4964e46dd5727952173029555df3b358"
+TKr = "ueee3a6c6ec34e2ca66bd95c30f83e8d2"
 cybertk.dneirFdiMtcatnoCDDAKTrebyC(TKr)
 cybertk.RESUREDNOGegasseMKTrebyC(TKr,"Merhaba")
 
