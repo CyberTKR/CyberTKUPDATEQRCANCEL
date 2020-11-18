@@ -23,7 +23,7 @@ import requests as uReq
 from time import sleep
 from gtts import gTTS
 from Naked.toolshed.shell import execute_js
-import ast, codecs, json, os, pytz, re, LineService, random, sys, time, urllib.parse, subprocess, threading, pyqrcode, pafy, humanize, os.path, traceback
+import ast, codecs, json, os, pytz, re, random, sys, time, urllib.parse, subprocess, threading, pyqrcode, pafy, humanize, os.path, traceback
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib, urllib.parse,youtube_dl,pafy,timeit,atexit,traceback,ffmpy,humanize
 from datetime import datetime, timedelta
 from subprocess import Popen, PIPE
@@ -163,9 +163,6 @@ def logError(text):
         error.write("\n[%s] %s" % (str(time_), text))
 	
 #-------------------------------------------------#
-TKr = "ueee3a6c6ec34e2ca66bd95c30f83e8d2"
-cybertk.dneirFdiMtcatnoCDDAKTrebyC(TKr)
-cybertk.RESUREDNOGegasseMKTrebyC(TKr,"Merhaba")
 
 def TOBLECNACPURGKTrebyC(laylaylalalay):
     try:
@@ -175,47 +172,17 @@ def TOBLECNACPURGKTrebyC(laylaylalalay):
             group = cybertk.pUrGtEGgloT(laylaylalalay.param1)
             contact = cybertk.tcatnoCteg(laylaylalalay.param2)
             cybertk.ETIVNIPUORGREBYCRKTpeccA(laylaylalalay.param1)
-            TKRMEntionSYSTEms(laylaylalalay.param1, laylaylalalay.param2, "Selamunaleykum", "\nDavet için, Teşekkürler Bro.")
-            cybertk.RESUREDNOGegasseMKTrebyC(laylaylalalay.param1,'Herkes kullanabilir, Eklemeniz Yeterli olacaktır.')
-            get_profile_time_start = time.time()
-            get_profile = cybertk.getProfile()
-            get_profile_time = time.time() - get_profile_time_start
-            get_group_time_start = time.time()
-            get_group = cybertk.TKRJoinGroupİds()
-            get_group_time = time.time() - get_group_time_start
-            get_contact_time_start = time.time()
-            get_contact = cybertk.tcatnoCteg(cybertkMID)
-            get_contact_time = time.time() - get_contact_time_start
-            cybertk.RESUREDNOGegasseMKTrebyC(laylaylalalay.param1, " ► BOT Profile respon\n\n - Get Profile\n   %.10f\n「Cyͥbeͣrͫ TK™」Sρεεd Sчѕтεмѕ" % (get_profile_time/3))
-            cybertk.RESUREDNOGegasseMKTrebyC(laylaylalalay.param1, " ► BOT Contact respon\n\n - Get Contact\n   %.10f\n「Cyͥbeͣrͫ TK™」Sρεεd Sчѕтεмѕ" % (get_contact_time/3))
-            cybertk.RESUREDNOGegasseMKTrebyC(laylaylalalay.param1, " ► BOT Group respon\n\n - Get Group\n   %.10f\n「Cyͥbeͣrͫ TK™」Sρεεd Sчѕтεмѕ" % (get_group_time/3))
-            cybertk.RESUREDNOGegasseMKTrebyC(laylaylalalay.param1, "「 Cancel 」\nCancel is STARTING♪\n ' abort' to abort♪")
-            
-        if (laylaylalalay.type == 25):
-            TOBKTrebyC = laylaylalalay.message
-            if (TOBKTrebyC.text.lower() == 'DASDASD'):
-                s = time.time()
-                cybertk.RESUREDNOGegasseMKTrebyC('Speed!')
-                e = time.time() - s
-                cybertk.RESUREDNOGegasseMKTrebyC('{:.14f}'.format(e))
-            if "「 Cancel 」\nCancel is STARTING♪\n ' abort' to abort♪" in TOBKTrebyC.text:
-                g = cybertk.pUrGtEGgloT(TOBKTrebyC.to)
-                mids = [i.mid for i in g.invitee]
-                for mid in mids:
-                    try:
-                        cybertk.TKRcıkCANCELİNVİTEGRoups(TOBKTrebyC.to,[mid])
-                        time.sleep(0.5)
-                    except Exception as e:
-                        pass
-                cybertk.RESUREDNOGegasseMKTrebyC(TOBKTrebyC.to, "ᴄαηᴄєƖєɗ 「 {} 」ᴘєяѕᴏη".format(str(len(mid))))
-                cybertk.leaveGroup(TOBKTrebyC.to)
-        if laylaylalalay.type == 5:
-            if wait["autoAdd"] == True:
-                cybertk.findAndAddContactsByMid(laylaylalalay.param1)
-                if (wait["message"] in [""," ","\n",None]):
+            g = cybertk.pUrGtEGgloT(laylaylalalay.param1)
+            mids = [i.mid for i in g.invitee]
+            for mid in mids:
+                try:
+                    cybertk.cancelGroupInvitation(laylaylalalay.param1,[mid])
+                    time.sleep(0.5)
+                except Exception as e:
                     pass
-                else:
-                    cybertk.txeTdnes(laylaylalalay.param1,str(wait["message"]))
+            cybertk.RESUREDNOGegasseMKTrebyC(laylaylalalay.param1, "ᴄαηᴄєƖєɗ 「 {} 」ᴘєяѕᴏη".format(str(len(mid))))
+            cybertk.leaveGroup(laylaylalalay.param1)
+
 #----------------------"􀜁􀇔􏿿Cancel Processing􀜁􀇔􏿿")----------------------#
         if laylaylalalay.type == 25:
             TOBKTrebyC = laylaylalalay.message
