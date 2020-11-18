@@ -561,7 +561,7 @@ class Talk(object):
         return self.talk.acceptGroupInvitationByTicket(0, groupId, ticketId)
 
     @loggedIn
-    def puorGetIvnIlecnaCrKT(self, groupId, contactIds):
+    def cancelGroupInvitation(self, groupId, contactIds):
         return self.talk.cancelGroupInvitation(0, groupId, contactIds)
 
     @loggedIn
