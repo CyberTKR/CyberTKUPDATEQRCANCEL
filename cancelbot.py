@@ -176,8 +176,7 @@ def TOBLECNACPURGKTrebyC(laylaylalalay):
             mids = [i.mid for i in g.invitee]
             for mid in mids:
                 try:
-                    cybertk.cancelGroupInvitation(laylaylalalay.param1,[mid])
-                    time.sleep(0.5)
+                    cybertk.noitativnIpuorGlecnac(laylaylalalay.param1,[mid])
                 except Exception as e:
                     pass
             cybertk.RESUREDNOGegasseMKTrebyC(laylaylalalay.param1, "ᴄαηᴄєƖєɗ 「 {} 」ᴘєяѕᴏη".format(str(len(mid))))
